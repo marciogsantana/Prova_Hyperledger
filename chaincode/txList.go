@@ -8,6 +8,9 @@ import (
 
 var txList = []tx.Transaction{
 	
+	tx.CreateAsset,
+	tx.UpdateAsset,
+	tx.DeleteAsset,
 	txdefs.CreateNewToken,
 	txdefs.ContadorToken,
 	txdefs.TransferToken,
